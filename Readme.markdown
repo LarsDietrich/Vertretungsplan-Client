@@ -1,0 +1,1 @@
+To run this app install `express` and `restler` (and nodejs) then go to the terminal, type `node app.js` and then navigate to `localhost:3000` to view the app.
