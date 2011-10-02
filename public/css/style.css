@@ -1,0 +1,50 @@
+#main{
+  margin-top: 75px;
+}
+
+.topbar-inner, .topbar .fill{
+  background-image: -webkit-linear-gradient(top, #2c7bbf, #2467a3);
+}
+
+.topbar a{
+  color: #c4dcf0;
+}
+
+#plan{
+  margin-top: 50px;
+}
+
+#plan > li{
+  list-style: none;
+  margin: 50px 0;
+}
+
+#plan li h3{
+  float: left;
+  display: block;
+  font-size: 54pt;
+  margin-left: -20pt;
+  width: 100px;
+  color: #c3cbd2;
+}
+
+#plan li ul{
+  margin-left: 150px;
+}
+
+#plan li ul li{
+  list-style: none;
+  color: black;
+}
+
+#plan li ul li h4{
+  float: left;
+  font-size: 10pt;
+  color: #9fa0a0;
+  margin-right: 10px;
+}
+
+#plan li ul li h5{
+  clear: right;
+  color: #727373;
+}
