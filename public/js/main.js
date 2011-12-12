@@ -1,9 +1,12 @@
 $(document).ready(function(){ 
-  
-  var url = 'http://ong-api.heroku.com/day/' + (Date.today().add(1).days().toString('dddd')).toLowerCase();
+  var date = Date.today().add(1).days();
+  var url = 'http://ong-api.heroku.com/day/' + (date.toString('dddd')).toLowerCase();
+
+  $('.bar').text(date.toString('d.M'));
 
   $.getJSON(url + '?callback=?', function(plan){
     
+    $('#loading').hide();
     
     $.each(plan, function(key, val){
       s = '<li class="form" id="fm' + key.replace(".", "-").replace(".", "-").replace(" ", "") + '">';

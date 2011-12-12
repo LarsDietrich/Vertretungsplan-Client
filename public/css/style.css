@@ -9,7 +9,8 @@ body {
 
 .bar {
   position: absolute;
-  background: #0078c5;
+  /*background: #0078c5; ONG */
+  background: #29468d;
   left: 0;
   width: 100%;
   color: #fff;
@@ -29,7 +30,14 @@ body {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   margin-top: 44px;
-  height: 212px;
+  height: 372px;
+}
+
+#loading{
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  color: grey;
 }
 
   .substitutes {
