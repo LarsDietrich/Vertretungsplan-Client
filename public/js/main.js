@@ -8,6 +8,8 @@ $(document).ready(function(){
     
     $('#loading').hide();
     
+    var content = "";
+    
     $.each(plan, function(key, val){
       s = '<li class="form" id="fm' + key.replace(".", "-").replace(".", "-").replace(" ", "") + '">';
         s += key;
@@ -29,9 +31,11 @@ $(document).ready(function(){
           });
         s += '</ul>';
       s = s + '</li>';
-      $('#substitutes').append(s);
+      
+      content += s;
+      
     });
-    
+    $('#substitutes').html(content);
   });
 });
 
