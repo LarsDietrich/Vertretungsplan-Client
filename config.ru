@@ -1,13 +1,6 @@
-use Rack::Static, 
-  :urls => ["/css", "/js"],
-  :root => "public"
+require 'app'
 
-run lambda { |env|
-  [
-    200, 
-    {
-      'Content-Type'  => 'text/html' 
-    },
-    File.open('public/index.html', File::RDONLY)
-  ]
-}
+## There is no need to set directories here anymore;
+## Just run the application
+
+run Sinatra::Application
