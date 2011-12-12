@@ -32,16 +32,6 @@ $(document).ready(function(){
   });
 });
 
-document.addEventListener('touchstart', function(event) {
-    // Prevent text selection
-    //event.preventDefault();
-}, false);
-
-document.addEventListener('mousedown', function(event) {
-    // Prevent text selection
-    event.preventDefault();
-}, false);
-
 
 
 
