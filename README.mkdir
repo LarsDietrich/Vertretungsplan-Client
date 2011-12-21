@@ -1,0 +1,2 @@
+#Vertretungsplan
+Die eigentliche mobile App liegt im `/public` Ordner. Das Sinatra-App ringsherum ist nur, um es auf Heroku laufen zu lassen.
